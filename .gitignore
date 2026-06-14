@@ -1,0 +1,24 @@
+# .gitignore 생성
+cat > "/Users/wjsdndud/Library/Mobile Documents/com~apple~CloudDocs/03_SideProject/AiStockAgent/주식 투자 에이전트 만들기/.gitignore" << 'EOF'
+# iCloud
+*.icloud
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+
+# DB
+*.db
+*.sqlite
+
+# API 키
+config/secrets.py
+EOF
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
